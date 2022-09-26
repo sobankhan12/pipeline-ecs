@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:196236753581:task-defination/my-bluegreen-tsk:1"
         LoadBalancerInfo:
-          ContainerName: "sample-app"
+          ContainerName: "soban-ecs"
           ContainerPort: 80
         PlatformVersion: "LATEST"
