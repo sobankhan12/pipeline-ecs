@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:196236753581:task/my-bluegreen-tsk:2"
+        TaskDefinition: "arn:aws:ecs:us-east-1:196236753581:task-definition/my-bluegreen-tsk:4"
         LoadBalancerInfo:
           ContainerName: "soban-ecs"
           ContainerPort: 80
