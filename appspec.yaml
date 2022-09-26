@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-east-1:196236753581:my-bluegreen-tsk:1/:1"
+        LoadBalancerInfo:
+          ContainerName: "sample-app"
+          ContainerPort: 80
+        PlatformVersion: "LATEST"
