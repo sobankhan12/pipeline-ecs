@@ -3,6 +3,6 @@ os: linux
 
 hooks:
   ApplicationStart:
-    - location: scripts/hello.sh
+    - location: /home/ubuntu/scripts/hello.sh
       timeout: 300
       runas: root
