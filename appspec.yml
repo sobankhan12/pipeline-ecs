@@ -1,6 +1,9 @@
+
 version: 0.0
 os: linux
 hooks:
   run-command:
-    - command: /bin/bash /home/ubuntu/scripts/hello.sh
-      runas: root
+    - location: /home/ubuntu/scripts/hello.sh
+      timeout: 300
+      runas: root      
+      
