@@ -1,9 +1,8 @@
 version: 0.0
 os: linux
 
-
 hooks:
-  BeforeInstall:
-    - location: /home/ubuntu/scripts/custom_script.sh
+  ApplicationStart:
+    - location: scripts/hello.sh
       timeout: 300
       runas: root
