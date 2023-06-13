@@ -6,4 +6,4 @@ hooks:
   BeforeInstall:
     - location: /home/ubuntu/scripts/custom_script.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
